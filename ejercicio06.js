@@ -10,7 +10,7 @@ let contar = 0
 
 while (numero1 >= numero2) {
   numero1 = numero1 - numero2
-  console.log(`el resto de la division es ${numero1}`)
   contar++
 }
 console.log(`el resultado de la division es ${contar}`)
+console.log(`el resto de la division es ${numero1}`)
